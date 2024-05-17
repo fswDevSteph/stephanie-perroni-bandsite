@@ -8,7 +8,7 @@
 }
 html,
 body {
-  padding: 0px;
+  padding: 0rem;
   margin: 0;
   font-family: "Avenir Regular", sans-serif;
   display: block;
@@ -29,4 +29,22 @@ body {
   max-width: 120px;
   width: 120px;
   height: 20px;
+}
+.header__nav {
+  color: #ffffff;
+}
+.header ul {
+  padding-left: 0;
+}
+.header__list {
+  list-style-type: none;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.header--item:first-of-type {
+  justify-content: flex-start;
+}
+.header--item:last-of-type {
+  justify-content: flex-end;
 }/*# sourceMappingURL=bio.css.map */

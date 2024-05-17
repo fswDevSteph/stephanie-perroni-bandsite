@@ -6,7 +6,8 @@
   font-family: 'Avenir Regular';
   src: url('../../assets/fonts/AvenirNextLTPro.ttf');
 }
-// DEFINE ALL STYLES HERE
+
+// Defined Styles
 html,
 body {
   padding: 0rem;
@@ -24,5 +25,28 @@ body {
   &__logo {
     @include mobile-img-styles;
     @include logo-size;
+  }
+
+  &__nav {
+    color: $white;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  &--item:first-of-type {
+    justify-content: flex-start;
+  }
+
+  &--item:last-of-type {
+    justify-content: flex-end;
   }
 }

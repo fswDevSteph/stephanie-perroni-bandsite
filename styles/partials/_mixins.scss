@@ -12,14 +12,27 @@
   }
 }
 //!Universal styles
+//flex row
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+// flex column
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 //logo
 @mixin logo-size {
   width: 120px;
   height: 20px;
 }
+
 //divider
 @mixin divider {
-  //stronke-width 11px
+  //stroke-width 11px
   //fill color mercury
 }
 
