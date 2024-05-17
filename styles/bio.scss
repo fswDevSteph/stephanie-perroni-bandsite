@@ -1,0 +1,27 @@
+@use './partials/variables' as *;
+@use './partials/mixins' as *;
+@use './partials/typography' as *;
+
+@font-face {
+  font-family: 'Avenir Regular';
+  src: url('../../assets/fonts/AvenirNextLTPro.ttf');
+}
+// DEFINE ALL STYLES HERE
+html,
+body {
+  padding: 0px;
+  margin: 0;
+  font-family: 'Avenir Regular', sans-serif;
+  display: block;
+}
+
+.header {
+  background-color: $bandsite-black;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  &__img {
+    @include mobile-img-styles;
+  }
+}

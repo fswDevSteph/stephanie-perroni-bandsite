@@ -11,13 +11,39 @@
     @content;
   }
 }
+//!Univeral styles
+@mixin logo-size {
+  width: 120px;
+  height: 20px;
+}
 
-//repeatable bits of code -
-//Mobile: Hadder and Section Header Styles
+//!Mobile Mixins
+@mixin mobile-img-styles {
+  display: block;
+  margin: 0 auto;
+  padding: 16px;
+  width: 100%;
+  height: auto;
+  max-width: 120px;
+}
+
+//Mobile: Headline Spacing
+@mixin headline-spacing {
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+//Mobile: Spacing between Components without a headline
+@mixin component-pacing {
+  padding: 16px;
+}
+
+//Mobile: Header and Section Header Styles
 @mixin pageHeader-sectionHeader-styles {
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
+  width: 100%;
 }
 
 //subheader section

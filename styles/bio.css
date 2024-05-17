@@ -1,138 +1,30 @@
 @font-face {
-    font-family: "Avenir Regular";
-    src: url("../../assets/fonts/AvenirNextLTPro.ttf");
+  font-family: "Avenir Regular";
+  src: url("../../assets/fonts/AvenirNextLTPro.ttf");
 }
-
+@font-face {
+  font-family: "Avenir Regular";
+  src: url("../../assets/fonts/AvenirNextLTPro.ttf");
+}
 html,
 body {
-    padding: 0;
-    margin: 0;
-    font-family: "Avenir Regular", sans-serif;
-    display: block;
+  padding: 0px;
+  margin: 0;
+  font-family: "Avenir Regular", sans-serif;
+  display: block;
 }
 
 .header {
-    display: block;
-    background-color: #323232;
-    background-repeat: no-repeat;
-    padding: 0.5rem;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
+  background-color: #323232;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
-
 .header__img {
-    display: flex;
-
-    padding: 16px;
-    width: 100%;
-    max-width: 120px;
-    max-height: 20px;
-    margin: 0 auto;
-    padding: 16px;
-}
-
-.header__nav {
-    display: flex;
-    text-align: center;
-    color: #e1e1e1;
-}
-
-.header a {
-    color: #e1e1e1;
-    text-decoration: none;
-    font-weight: normal;
-    border-bottom: 2px solid transparent;
-}
-
-.header__list {
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    padding: 0;
-}
-
-.header__item {
-    justify-content: space-between;
-}
-
-.header__list--item a:active {
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff;
-}
-
-.hero {
-    background: #ffffff;
-    color: #000000;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    color: #ffffff;
-    line-height: 32px;
-    background-image: url(../assets/images/hero-bio.jpg);
-    width: 100%;
-    background-size: cover;
-    position: relative;
-}
-
-.hero::after {
-    width: 100%;
-    display: block;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #323232;
-    opacity: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.hero__title {
-    padding-top: 24px;
-    padding-bottom: 16px;
-    padding-left: 16px;
-    margin: 0;
-}
-
-.about {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-}
-
-.about__title {
-    padding-top: 16px;
-    line-height: 32px;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.about__quote {
-    padding-top: 16px;
-    margin: 0;
-    font-weight: 400;
-    line-height: 18px;
-}
-
-.photo-gallery {
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}
-
-.photo-gallery__div {
-    display: flex;
-    justify-content: center;
-}
-
-.footer {
-    width: 100%;
-    background-color: #323232;
-    color: #ffffff;
-}
+  display: block;
+  margin: 0 auto;
+  padding: 16px;
+  width: 100%;
+  height: auto;
+  max-width: 120px;
+}/*# sourceMappingURL=bio.css.map */
