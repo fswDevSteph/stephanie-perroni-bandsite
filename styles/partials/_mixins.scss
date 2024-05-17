@@ -12,21 +12,55 @@
   }
 }
 //!Universal styles
+//logo
 @mixin logo-size {
   width: 120px;
   height: 20px;
 }
-
-@mixin btn-cta {
-  //150px
-  //32px LR padding
-}
-
-@mixin btn {
-  radius: 4px; //all corners
+//divider
+@mixin divider {
+  //stronke-width 11px
+  //fill color mercury
 }
 
 //!Mobile Styles
+//Mobile: Header and Section Header Styles
+@mixin mobile-header-sectionHeader-styles {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  width: 100%;
+}
+
+//subheader section
+@mixin mobile-subheader-styles {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+//body
+@mixin mobile-body-copy-styles {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+//footer
+@mixin mobile-footer {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+//labels and buttons
+@mixin mobile-label-btn {
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+//(gallery)
 @mixin mobile-img-styles {
   display: block;
   margin: 0 auto;
@@ -47,32 +81,71 @@
   padding: 16px;
 }
 
-//Mobile: Header and Section Header Styles
-@mixin pageHeader-sectionHeader-styles {
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 700;
+//!Tablet and Desktop styles
+//Larger: img
+@mixin larger-img-styles {
+  display: block;
+  margin: 0 auto;
+  // padding: 16px;
   width: 100%;
+  height: auto;
+  // max-width: 120px;
 }
 
-//subheader section
-@mixin subheader-styles {
-  font-size: 14px;
-  line-height: 22px;
+//Larger: PageHeader
+@mixin larger-page-header {
+  font-size: 60px;
+  line-height: 68;
+  font-weight: 700;
+}
+
+//Larger: SectionHeader
+@mixin larger-section-header {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+//Larger: SubHeader
+@mixin larger-sub-header {
+  font-size: 24px;
+  line-height: 32;
   font-weight: 600;
 }
 
-//!Shared: Tablet and Desktop styles
-//Shared Padding
-@mixin larger-headline-spacing {
+//Larger: BodyCopy
+@mixin larger-body-copy {
+  font-size: 14px;
+  line-height: 22;
+  font-weight: 400;
+}
+
+//footer
+@mixin larger-footer-copy {
+  font-size: 14px;
+  line-height: 20;
+  font-weight: 400;
+}
+
+//labels and buttons
+@mixin larger-label-btn {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+@mixin larger-btn-cta-spacing {
+  //150px
+  //32px LR padding
+}
+
+//Larger:headline spacing
+@mixin mobile-headline-spacing {
   padding-top: 48px;
   padding-bottom: 36px;
 }
-//
+
+//Larger: Spacing between Components without a headline
 @mixin larger-component-spacing {
   padding: 36px;
 }
-
-//!Tablet Styles
-
-//!Desktop Styles
