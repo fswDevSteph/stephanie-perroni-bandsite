@@ -11,13 +11,22 @@
     @content;
   }
 }
-//!Univeral styles
+//!Universal styles
 @mixin logo-size {
   width: 120px;
   height: 20px;
 }
 
-//!Mobile Mixins
+@mixin btn-cta {
+  //150px
+  //32px LR padding
+}
+
+@mixin btn {
+  radius: 4px; //all corners
+}
+
+//!Mobile Styles
 @mixin mobile-img-styles {
   display: block;
   margin: 0 auto;
@@ -28,13 +37,13 @@
 }
 
 //Mobile: Headline Spacing
-@mixin headline-spacing {
+@mixin mobile-headline-spacing {
   padding-top: 24px;
   padding-bottom: 16px;
 }
 
 //Mobile: Spacing between Components without a headline
-@mixin component-pacing {
+@mixin mobile-component-spacing {
   padding: 16px;
 }
 
@@ -52,3 +61,18 @@
   line-height: 22px;
   font-weight: 600;
 }
+
+//!Shared: Tablet and Desktop styles
+//Shared Padding
+@mixin larger-headline-spacing {
+  padding-top: 48px;
+  padding-bottom: 36px;
+}
+//
+@mixin larger-component-spacing {
+  padding: 36px;
+}
+
+//!Tablet Styles
+
+//!Desktop Styles

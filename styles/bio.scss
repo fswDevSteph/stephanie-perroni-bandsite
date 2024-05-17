@@ -9,7 +9,7 @@
 // DEFINE ALL STYLES HERE
 html,
 body {
-  padding: 0px;
+  padding: 0rem;
   margin: 0;
   font-family: 'Avenir Regular', sans-serif;
   display: block;
@@ -21,7 +21,8 @@ body {
   padding: 0;
   margin: 0;
 
-  &__img {
+  &__logo {
     @include mobile-img-styles;
+    @include logo-size;
   }
 }
